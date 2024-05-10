@@ -12,25 +12,27 @@ Este projeto utiliza a API GenerativeAI do Google para criar um programa de plan
 • **Google Colab:** Ambiente de desenvolvimento em nuvem usado para executar o código Python.
 
 ### Funcionamento
-**1. Coleta de informações**<br>
-O programa faz uma série de perguntas ao usuário para coletar informações sobre suas preferências de viagem, incluindo:<br>
-• Destino<br>
-• Duração da viagem<br>
-• Companhia de viagem<br>
-• Tipo de hospedagem<br>
-• Orçamento<br>
-• Atividades desejadas<br>
-• Elementos essenciais<br>
+1. **Coleta de informações**<br>
+  *O programa faz uma série de perguntas ao usuário para coletar informações sobre suas preferências de viagem, incluindo:*<br>
+    • Destino<br>
+    • Duração da viagem<br>
+    • Companhia de viagem<br>
+    • Tipo de hospedagem<br>
+    • Orçamento<br>
+    • Atividades desejadas<br>
+    • Elementos essenciais<br>
 
-**2. Geração do roteiro**<br>
-As informações coletadas são utilizadas para criar um prompt para a API GenerativeAI. A API gera um roteiro de viagem personalizado com base no prompt e nos parâmetros de configuração.
+2. **Geração do roteiro**<br>
+  *As informações coletadas são utilizadas para criar um prompt para a API GenerativeAI. A API gera um roteiro de viagem personalizado com base no prompt e nos parâmetros de configuração.*
 
-**3. Apresentação do roteiro**<br>
-O roteiro gerado é apresentado ao usuário.
+3. **Apresentação do roteiro**<br>
+  *O roteiro gerado é apresentado ao usuário.*
 
 ### Código
 O código Python apresentado utiliza a biblioteca google.generativeai para interagir com a API GenerativeAI. A função obter_destino() e outras funções similares coletam as informações do usuário.<br>
 O dicionário viagem armazena as informações coletadas, que são então utilizadas para construir o prompt para a API. O modelo gemini-1.0-pro é utilizado para gerar o conteúdo, com um parâmetro de temperatura definido para 0.7, o que permite um certo grau de criatividade na geração do texto.<br>
+
+
 
 ### Apresentação para o Concurso
 
