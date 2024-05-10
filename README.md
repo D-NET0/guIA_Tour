@@ -31,6 +31,7 @@ Este projeto utiliza a API GenerativeAI do Google para criar um programa de plan
 ### #️⃣Código
 O código Python apresentado utiliza a biblioteca google.generativeai para interagir com a API GenerativeAI. A função obter_destino() e outras funções similares coletam as informações do usuário.<br>
 O dicionário viagem armazena as informações coletadas, que são então utilizadas para construir o prompt para a API. O modelo gemini-1.0-pro é utilizado para gerar o conteúdo, com um parâmetro de temperatura definido para 0.7, o que permite um certo grau de criatividade na geração do texto.<br>
+<br>
 
 ## 📎Apresentação para o Concurso
 
