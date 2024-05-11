@@ -12,16 +12,14 @@
 * 💡 [Introdução](#-introdu%C3%A7%C3%A3o)
 * 🤨 [Problema](#-problema)
 * 😊 [Solução](#-solu%C3%A7%C3%A3o)
-* ⚙️ [Arquitetura](#arquitetura)
-* 🚀 [Tecnologias](#tecnologias)
-* 💻 [Instalação](#instalação)
-* 🕹️ [Uso](#uso)
-* 🧪 [Exemplos](#exemplos)
-* 📈 [Status](#status)
-* 🤝 [Contribuições](#contribuições)
-
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
-
+* ⚙️ [Arquitetura](#%EF%B8%8F-arquitetura)
+* 🚀 [Tecnologias](#-tecnologias)
+* 💻 [Instalação](#-instala%C3%A7%C3%A3o)
+* 🕹️ [Uso](#%EF%B8%8F-uso)
+* 🧪 [Exemplos](#-exemplos)
+* 📈 [Status](#-status)
+* 🤝 [Contribuições](#-contribui%C3%A7%C3%B5es)
+* 📞 [Contatos](#-contatos)
 
 ## 💡 Introdução
 
