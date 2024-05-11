@@ -9,9 +9,9 @@
 
 ## ☰ Sumário
 
-* 💡 [Introdução](https://github.com/D-NET0/guIA_tour/edit/main/README.md#-introdu%C3%A7%C3%A3o)
-* 🤨 [Problema](#problema)
-* 😊 [Solução](#solução)
+* 💡 [Introdução](#-introdu%C3%A7%C3%A3o)
+* 🤨 [Problema](#-problema)
+* 😊 [Solução](#-solu%C3%A7%C3%A3o)
 * ⚙️ [Arquitetura](#arquitetura)
 * 🚀 [Tecnologias](#tecnologias)
 * 💻 [Instalação](#instalação)
@@ -19,6 +19,9 @@
 * 🧪 [Exemplos](#exemplos)
 * 📈 [Status](#status)
 * 🤝 [Contribuições](#contribuições)
+
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
 
 ## 💡 Introdução
 
