@@ -5,9 +5,16 @@
 *Planejador de Viagens com GenerativeAI [Alura - IMERSÃO IA 2024].*<br>
 </div>
 
-## 🗂Documentação do Projeto
+## 🗂Índice
+
 
 ### ✏Introdução
+Planejar uma viagem pode ser uma tarefa emocionante, mas também desafiadora. Com tantas opções de destinos, atividades, hospedagem e transporte, organizar todos os detalhes para criar um itinerário coeso e memorável pode se tornar um processo complexo e demorado.
+<br><br>
+Este projeto surge para simplificar o planejamento de viagens, utilizando o poder da inteligência artificial. Através da API GenerativeAI do Google, desenvolvemos um programa que coleta as preferências do usuário e gera um roteiro de viagem personalizado, adaptado às suas necessidades.
+<br><br>
+Imagine poder descrever seus sonhos de viagem - o destino ideal, as atividades que você sempre quis experimentar, o tipo de companhia e orçamento - e receber um roteiro detalhado e pronto para uso! É exatamente isso que este programa oferece: uma solução inteligente para transformar o planejamento de viagens em um processo mais fácil, rápido e personalizado.
+<br><br>
 Este projeto utiliza a API GenerativeAI do Google para criar um programa de planejamento de viagens personalizado. O programa coleta as preferências do usuário e gera um roteiro de viagem exclusivo com base nessas informações.
 
 ### 🤖Tecnologias Utilizadas
