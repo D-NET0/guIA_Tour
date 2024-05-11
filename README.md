@@ -7,6 +7,19 @@
 *Planejador de Viagens com GenerativeAI [Alura - IMERSÃO IA 2024].*<br>
 [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1N1_u7PpCICRKax2LCQ5u9Kzkt2gsgHvP?usp=sharing)<br>
 
+## ☰ Sumário
+
+* 💡 [Introdução](https://github.com/D-NET0/guIA_tour/edit/main/README.md#-introdu%C3%A7%C3%A3o)
+* 🤨 [Problema](#problema)
+* 😊 [Solução](#solução)
+* ⚙️ [Arquitetura](#arquitetura)
+* 🚀 [Tecnologias](#tecnologias)
+* 💻 [Instalação](#instalação)
+* 🕹️ [Uso](#uso)
+* 🧪 [Exemplos](#exemplos)
+* 📈 [Status](#status)
+* 🤝 [Contribuições](#contribuições)
+
 ## 💡 Introdução
 
 Planejar uma viagem pode ser uma tarefa emocionante, mas também desafiadora. Com tantas opções de destinos, atividades, hospedagem e transporte, organizar todos os detalhes para criar um itinerário coeso e memorável pode se tornar um processo complexo e demorado.
