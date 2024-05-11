@@ -1,76 +1,117 @@
-<img src="https://i.ibb.co/JRrvV43/gu-IA-tour-logo.png" width="480" align="right"><br>
+<a href="https://colab.research.google.com/drive/1N1_u7PpCICRKax2LCQ5u9Kzkt2gsgHvP?usp=sharing">
+  <img src="https://i.ibb.co/JRrvV43/gu-IA-tour-logo.png" width="480" align="right">
+</a>
 <br><br><br>
 
 # 🗺guIAtour
 *Planejador de Viagens com GenerativeAI [Alura - IMERSÃO IA 2024].*<br>
-</div>
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1N1_u7PpCICRKax2LCQ5u9Kzkt2gsgHvP?usp=sharing)<br>
 
-## 🗂Índice
+## 💡 Introdução
 
-
-### ✏Introdução
 Planejar uma viagem pode ser uma tarefa emocionante, mas também desafiadora. Com tantas opções de destinos, atividades, hospedagem e transporte, organizar todos os detalhes para criar um itinerário coeso e memorável pode se tornar um processo complexo e demorado.
-<br><br>
+
 Este projeto surge para simplificar o planejamento de viagens, utilizando o poder da inteligência artificial. Através da API GenerativeAI do Google, desenvolvemos um programa que coleta as preferências do usuário e gera um roteiro de viagem personalizado, adaptado às suas necessidades.
-<br><br>
-Imagine poder descrever seus sonhos de viagem - o destino ideal, as atividades que você sempre quis experimentar, o tipo de companhia e orçamento - e receber um roteiro detalhado e pronto para uso! É exatamente isso que este programa oferece: uma solução inteligente para transformar o planejamento de viagens em um processo mais fácil, rápido e personalizado.
-<br><br>
+
+Imagine poder descrever seus sonhos de viagem - o destino ideal, as atividades que você sempre quis experimentar, o tipo de companhia e orçamento - e receber um roteiro detalhado e pronto para uso!  É exatamente isso que este programa oferece: uma solução inteligente para transformar o planejamento de viagens em um processo mais fácil, rápido e personalizado.
+
 Este projeto utiliza a API GenerativeAI do Google para criar um programa de planejamento de viagens personalizado. O programa coleta as preferências do usuário e gera um roteiro de viagem exclusivo com base nessas informações.
 
-### 🤖Tecnologias Utilizadas
- - *Python:* Linguagem de programação utilizada para desenvolver o programa.<br>
- - *Google GenerativeAI API:* API que permite gerar texto criativo e personalizado com base em prompts e parâmetros.<br>
- - *Google Colab:* Ambiente de desenvolvimento em nuvem usado para executar o código Python.
+## 🤨 Problema
 
-### 📝Funcionamento
-1. *Coleta de informações*<br>
-  O programa faz uma série de perguntas ao usuário para coletar informações sobre suas preferências de viagem, incluindo:<br>
-    - Destino<br>
-    - Duração da viagem<br>
-    - Companhia de viagem<br>
-    - Tipo de hospedagem<br>
-    - Orçamento<br>
-    - Atividades desejadas<br>
-    - Elementos essenciais<br>
+Criar um roteiro de viagem que atenda às necessidades e expectativas de todos os viajantes pode ser um desafio, especialmente quando se trata de conciliar diferentes interesses, orçamentos e estilos de viagem. 
 
-2. *Geração do roteiro*<br>
-  As informações coletadas são utilizadas para criar um prompt para a API GenerativeAI. A API gera um roteiro de viagem personalizado com base no prompt e nos parâmetros de configuração.
+A pesquisa e comparação de opções de voos, hospedagem, passeios e restaurantes podem consumir muito tempo e energia. Além disso, garantir que o itinerário seja coerente, otimizado em termos de tempo e custo, e inclua todas as informações relevantes exige atenção aos detalhes. 
 
-3. *Apresentação do roteiro*<br>
-  O roteiro gerado é apresentado ao usuário.
+Muitas vezes, os viajantes acabam recorrendo a agências de viagens, que podem oferecer soluções personalizadas, mas com custos adicionais. 
 
-### #️⃣Código
-O código Python apresentado utiliza a biblioteca google.generativeai para interagir com a API GenerativeAI. A função obter_destino() e outras funções similares coletam as informações do usuário.<br>
-O dicionário viagem armazena as informações coletadas, que são utilizadas para construir o prompt para a API. O modelo gemini-1.0-pro é utilizado para gerar o conteúdo, com um parâmetro de temperatura definido para 0.5, o que permite um certo grau de criatividade na geração do texto.<br>
-<br>
+##  😊 Solução
 
-## 📎Apresentação
-<img src="https://i.ibb.co/JRrvV43/gu-IA-tour-logo.png" width="200" align="right">
+O guIAtour oferece uma solução inovadora para o planejamento de viagens, automatizando a criação de roteiros personalizados utilizando a API do Google GenerativeAI. O programa funciona em três etapas principais:
 
-### 🏷Título
-*guIAtour*<br>
-Planejador de Viagens Personalizado com IA
+1. **Coleta de Informações:** O guIAtour realiza uma série de perguntas ao usuário para entender suas preferências de viagem. As informações coletadas incluem:
+    * Destino
+    * Duração da viagem
+    * Companhia de viagem (nomes e idades)
+    * Tipo de hospedagem
+    * Orçamento
+    * Atividades desejadas
+    * Elementos essenciais da viagem 
 
-### 🗣Descrição
-Este projeto utiliza a API GenerativeAI do Google para criar roteiros de viagem personalizados com base nas preferências do usuário. O programa coleta informações sobre o destino, duração, companhia, hospedagem, orçamento, atividades desejadas e elementos essenciais da viagem. Com base nessas informações, a API gera um roteiro único que atende às necessidades do usuário.
+2. **Geração do Roteiro:** Com base nas informações coletadas, o programa constrói um *prompt* detalhado para a API GenerativeAI.  A API utiliza algoritmos avançados de inteligência artificial para gerar um roteiro de viagem único e personalizado, levando em consideração todos os detalhes fornecidos pelo usuário.
 
-### *️⃣Destaques
- - *Personalização:* O roteiro é gerado especificamente para cada usuário, levando em consideração suas preferências individuais.
- - *Criatividade:* A API GenerativeAI permite a criação de roteiros criativos e originais, que vão além dos roteiros turísticos tradicionais.
- - *Facilidade de uso:* O programa é fácil de usar e requer apenas que o usuário responda a algumas perguntas simples.
+3. **Apresentação do Roteiro:** O roteiro gerado é apresentado ao usuário de forma clara e organizada. 
 
-### ⭐Potencial
-Este projeto tem o potencial de revolucionar a forma como as pessoas planejam suas viagens. Ele elimina a necessidade de pesquisas demoradas e permite que os usuários criem roteiros personalizados em minutos.
+## ⚙️ Arquitetura
 
-### 📋Demonstração
-Para demonstrar o projeto, você pode apresentar um exemplo de roteiro gerado para um destino específico, com base em um conjunto de preferências. Também é possível mostrar o código Python e explicar como ele funciona.
+O guIAtour é um programa Python que utiliza a biblioteca `google.generativeai` para interagir com a API GenerativeAI do Google. 
 
-### ✅Diferenciais
- - *Integração com outras APIs:* O projeto pode ser expandido para incluir a integração com outras APIs, como APIs de reserva de hotéis e voos, para oferecer uma experiência de planejamento de viagem completa.
- - *Interface de usuário:* Uma interface de usuário amigável pode ser desenvolvida para facilitar ainda mais o uso do programa.
+O código é estruturado em funções que coletam as informações do usuário, constroem o *prompt* para a API, e processam a resposta da API para apresentar o roteiro.
 
-## 🧳Conclusão
-Este projeto demonstra o poder da API GenerativeAI do Google para criar aplicativos inovadores e úteis. O planejador de viagens personalizado é um exemplo de como a IA pode ser usada para melhorar a experiência do usuário e tornar as viagens mais acessíveis e agradáveis através de sugestões com base nas informações e solicitações do usuário.
+## 🚀 Tecnologias
 
-Usando o "HTML para o Resgate", como defino a largura e deixo a altura proporcional?
-Como coloco a imagem acima do texto?
+* **Python:** Linguagem de programação utilizada para desenvolver o programa.
+* **Google GenerativeAI API:** API que permite gerar texto criativo e personalizado com base em prompts e parâmetros.
+* **Google Colab:** Ambiente de desenvolvimento em nuvem usado para executar o código Python.
+
+## 💻 Instalação
+
+Para utilizar o guIAtour, você precisa:
+
+1. Ter uma conta Google e acesso ao Google Colab.
+2. Obter uma chave de API para o Google GenerativeAI.
+3. Copiar o código do projeto para um notebook no Google Colab.
+4. Configurar a chave da API no código.
+
+## 🕹️ Uso
+
+1. Execute o código no Google Colab.
+2. Responda às perguntas do programa sobre suas preferências de viagem.
+3. Aguarde a geração do roteiro personalizado.
+4. Visualize o roteiro gerado.
+
+<a href="https://colab.research.google.com/drive/1N1_u7PpCICRKax2LCQ5u9Kzkt2gsgHvP?usp=sharing">
+  <img src="https://i.ibb.co/JRrvV43/gu-IA-tour-logo.png" width="200">
+</a>
+
+*Clique na imagem acima para abrir a aplicação no Google Colab e começar a planejar sua viagem!*
+
+## 🧪 Exemplos
+
+**Exemplo de Prompt:**
+
+![image](https://github.com/D-NET0/guIA_tour/assets/169196681/ab877dc0-daee-44d5-b861-248e7982393b)
+
+**Exemplo de Roteiro Gerado:**
+
+![image](https://github.com/D-NET0/guIA_tour/assets/169196681/00a32e54-a4ed-4e31-b054-8f0d20241efa)
+
+## 📈 Status
+
+O projeto guIAtour está em desenvolvimento contínuo, com planos de adicionar recursos como:
+
+* Integração com APIs de reserva de voos e hotéis.
+* Sugestões de restaurantes e atividades com base nas preferências do usuário.
+* Visualização do roteiro em um mapa interativo.
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* e enviar *pull requests*.
+
+## 📞 Contatos
+
+<a href="https://www.linkedin.com/in/dilermando-neto-b585849b/">
+  <img src="https://i.ibb.co/YkQZk4G/icon-linkedin.png" width="50"></a>
+
+<a href="https://www.instagram.com/netox">
+  <img src="https://i.ibb.co/2Zdf23d/icon-instagram.png" width="50"></a>
+
+<a href="https://wa.me/5581996066911">
+  <img src="https://i.ibb.co/WfhJNCz/icon-whatsapp.png" width="50"></a>
+
+<a href="https://t.me/dilermandoneto">
+  <img src="https://i.ibb.co/q7kyjjb/icon-telegram.png" width="50"></a>
+
+<a href="mailto:dilermando.neto@gmail.com">
+  <img src="https://i.ibb.co/mvS9hFX/icon-email.png" width="50">
+</a>
