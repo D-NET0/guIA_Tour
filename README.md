@@ -31,13 +31,17 @@ Imagine poder descrever seus sonhos de viagem - o destino ideal, as atividades q
 
 Este projeto utiliza a API GenerativeAI do Google para criar um programa de planejamento de viagens personalizado. O programa coleta as preferências do usuário e gera um roteiro de viagem exclusivo com base nessas informações.
 
+☰ [Voltar para o Sumário](#-sum%C3%A1rio)
+
 ## 🤨 Problema
 
 Criar um roteiro de viagem que atenda às necessidades e expectativas de todos os viajantes pode ser um desafio, especialmente quando se trata de conciliar diferentes interesses, orçamentos e estilos de viagem. 
 
 A pesquisa e comparação de opções de voos, hospedagem, passeios e restaurantes podem consumir muito tempo e energia. Além disso, garantir que o itinerário seja coerente, otimizado em termos de tempo e custo, e inclua todas as informações relevantes exige atenção aos detalhes. 
 
-Muitas vezes, os viajantes acabam recorrendo a agências de viagens, que podem oferecer soluções personalizadas, mas com custos adicionais. 
+Muitas vezes, os viajantes acabam recorrendo a agências de viagens, que podem oferecer soluções personalizadas, mas com custos adicionais.
+
+☰ [Voltar para o Sumário](#-sum%C3%A1rio)
 
 ##  😊 Solução
 
@@ -54,7 +58,9 @@ O guIAtour oferece uma solução inovadora para o planejamento de viagens, autom
 
 2. **Geração do Roteiro:** Com base nas informações coletadas, o programa constrói um *prompt* detalhado para a API GenerativeAI.  A API utiliza algoritmos avançados de inteligência artificial para gerar um roteiro de viagem único e personalizado, levando em consideração todos os detalhes fornecidos pelo usuário.
 
-3. **Apresentação do Roteiro:** O roteiro gerado é apresentado ao usuário de forma clara e organizada. 
+3. **Apresentação do Roteiro:** O roteiro gerado é apresentado ao usuário de forma clara e organizada.
+
+☰ [Voltar para o Sumário](#-sum%C3%A1rio)
 
 ## ⚙️ Arquitetura
 
@@ -62,11 +68,15 @@ O guIAtour é um programa Python que utiliza a biblioteca `google.generativeai` 
 
 O código é estruturado em funções que coletam as informações do usuário, constroem o *prompt* para a API, e processam a resposta da API para apresentar o roteiro.
 
+☰ [Voltar para o Sumário](#-sum%C3%A1rio)
+
 ## 🚀 Tecnologias
 
 * **Python:** Linguagem de programação utilizada para desenvolver o programa.
 * **Google GenerativeAI API:** API que permite gerar texto criativo e personalizado com base em prompts e parâmetros.
 * **Google Colab:** Ambiente de desenvolvimento em nuvem usado para executar o código Python.
+
+☰ [Voltar para o Sumário](#-sum%C3%A1rio)
 
 ## 💻 Instalação
 
@@ -76,6 +86,8 @@ Para utilizar o guIAtour, você precisa:
 2. Obter uma chave de API para o Google GenerativeAI.
 3. Copiar o código do projeto para um notebook no Google Colab.
 4. Configurar a chave da API no código.
+
+☰ [Voltar para o Sumário](#-sum%C3%A1rio)
 
 ## 🕹️ Uso
 
@@ -90,6 +102,8 @@ Para utilizar o guIAtour, você precisa:
 
 *Clique na imagem acima para abrir a aplicação no Google Colab e começar a planejar sua viagem!*
 
+☰ [Voltar para o Sumário](#-sum%C3%A1rio)
+
 ## 🧪 Exemplos
 
 **Exemplo de Prompt:**
@@ -100,6 +114,8 @@ Para utilizar o guIAtour, você precisa:
 
 ![image](https://github.com/D-NET0/guIA_tour/assets/169196681/00a32e54-a4ed-4e31-b054-8f0d20241efa)
 
+☰ [Voltar para o Sumário](#-sum%C3%A1rio)
+
 ## 📈 Status
 
 O projeto guIAtour está em desenvolvimento contínuo, com planos de adicionar recursos como:
@@ -108,9 +124,13 @@ O projeto guIAtour está em desenvolvimento contínuo, com planos de adicionar r
 * Sugestões de restaurantes e atividades com base nas preferências do usuário.
 * Visualização do roteiro em um mapa interativo.
 
+☰ [Voltar para o Sumário](#-sum%C3%A1rio)
+
 ## 🤝 Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* e enviar *pull requests*.
+
+☰ [Voltar para o Sumário](#-sum%C3%A1rio)
 
 ## 📞 Contatos
 
